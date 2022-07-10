@@ -39,6 +39,14 @@
                 <Label Content="本日の約束"  Foreground="White"/>
                 <TextBox Text="{Binding DailyNoteInfo.Target, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"  Foreground="White" Background="#FF141414" AcceptsReturn="True" MinHeight="60" Padding="5,5,5,5"/>
                 <Separator Opacity="0" Height="10"/>
+
+                <Label Content="スケジュール"  Foreground="White"/>
+                <TextBox Text="{Binding DailyNoteInfo.Schedule, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"  Foreground="White" Background="#FF141414" AcceptsReturn="True" MinHeight="60" Padding="5,5,5,5"/>
+                <Separator Opacity="0" Height="10"/>
+
+                <Label Content="日報"  Foreground="White"/>
+                <TextBox Text="{Binding DailyNoteInfo.Nippo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"  Foreground="White" Background="#FF141414" AcceptsReturn="True" MinHeight="60" Padding="5,5,5,5"/>
+                <Separator Opacity="0" Height="10"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

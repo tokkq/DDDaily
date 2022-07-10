@@ -25,3 +25,5 @@ C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\Week\Weekl
 C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\Week\WeeklyWritePage.baml
 C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\MyDebug\DebugPage.g.cs
 C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\MyDebug\DebugPage.baml
+C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\Schedule\ScheduleWritePage.g.cs
+C:\TokkqFiles\WorkSpace\Projects\DailyProject\obj\Debug\netcoreapp3.1\Schedule\ScheduleWritePage.baml

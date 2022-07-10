@@ -41,7 +41,7 @@ namespace DailyProject.Day
             {
                 var firstDayOfWeek = _date.GetFirstDayOfWeek(DayOfWeek.Sunday);
                 var weeklyPath = Path.Combine(PathDefinition.WeeklyJsonDirectoryPath, $@"Weekly_{firstDayOfWeek:yyyy_MM_dd}.json");
-                var loadedInfo = JsonUtility.LoadJson<WeeklyNoteInfo>(weeklyPath);
+                var loadedInfo = JsonUtility.LoadJson<WeeklyNoteInfo>(weeklyPath, shouldCreateNewFileIfNoExistJson: true);
 
                 var text = "";
                 text += $"{loadedInfo.Target}";

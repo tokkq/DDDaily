@@ -1,5 +1,6 @@
 ﻿using DailyProject.Day;
 using DailyProject.MyDebug;
+using DailyProject.Schedule;
 using DailyProject.Week;
 using System;
 using System.Windows;
@@ -17,6 +18,7 @@ namespace DailyProject
     {
         DailyWritePage _dailyWritePage = new DailyWritePage();
         WeeklyWritePage _weeklyWritePage = new WeeklyWritePage();
+        ScheduleWritePage _scheduleWritePage = new ScheduleWritePage();
         DebugPage _debugPage = new DebugPage();
 
         MainPageViewModel _mainPageViewModel = null;
@@ -27,7 +29,7 @@ namespace DailyProject
         {
             InitializeComponent();
 
-            _mainPageViewModel = new MainPageViewModel(new StandardCommand(() => NavigationService.Navigate(_debugPage)));
+            _mainPageViewModel = new MainPageViewModel(new StandardCommand(() => NavigationService.Navigate(_scheduleWritePage)));
         }
 
         void OnLoadedPage(object sender, RoutedEventArgs e)

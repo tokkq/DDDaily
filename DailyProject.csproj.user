@@ -16,6 +16,9 @@
     <Compile Update="MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Schedule\ScheduleWritePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Week\WeeklyWritePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Schedule\ScheduleWritePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Week\WeeklyWritePage.xaml">
